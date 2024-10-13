@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   const [data, setData] = useState(["blue", "brown", "grey", "light-blue", "pink"])
-  const [boxShadowImage, setBoxShadow] = useState("0 0 2rem 0 var(--black-box-shadow)")
+  const [boxShadowImage, setBoxShadow] = useState("0 0 2rem 0 var(--white)")
   
   const [windowY, setWindowY] = useState()
 

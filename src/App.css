@@ -35,7 +35,6 @@ section {
 .book-image {
   height: 80%;
   transition: 1s;
-  box-shadow: 0 0 2rem 0 var(--white);
 }
 
 @media screen and (max-width: 500px) {
