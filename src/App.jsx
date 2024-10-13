@@ -20,19 +20,19 @@ function App() {
       body.style.backgroundColor = `var(--blue-bg)`
     }
 
-    if(windowY > screenHight - 100) {
+    if(windowY > screenHight - (screenHight * 0.15)) {
       body.style.backgroundColor = `var(--brown-bg)`
     }
 
-    if(windowY > (screenHight * 2) - 100) {
+    if(windowY > (screenHight * 2) - (screenHight * 0.15)) {
       body.style.backgroundColor = `var(--grey-bg)`
     }
 
-    if(windowY > (screenHight * 3) - 100) {
+    if(windowY > (screenHight * 3) - (screenHight * 0.15)) {
       body.style.backgroundColor = `var(--light-blue-bg)`
     }
 
-    if(windowY > (screenHight * 4) - 100) {
+    if(windowY > (screenHight * 4) - (screenHight * 0.15)) {
       body.style.backgroundColor = `var(--pink-bg)`
     }
   }
