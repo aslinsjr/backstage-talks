@@ -34,3 +34,9 @@ section img {
   height: 80%;
   box-shadow: 0 0 0.5rem 1px black;
 }
+
+@media screen and (max-width: 500px) {
+  section img {
+    width: 300px;
+  }
+}
