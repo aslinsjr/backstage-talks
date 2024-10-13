@@ -1,0 +1,36 @@
+:root {
+  --pink-bg: hsl(340.65,47.69%,87.25%);
+  --light-blue-bg: hsl(183.37,79.67%,51.76%);
+  --grey-bg: hsl(208, 18%, 14%);
+  --brown-bg: hsl(28, 31%, 55%);
+  --blue-bg: hsl(238, 39%, 35%);
+  --white: hsl(0, 0%, 97%);
+}
+
+body {
+  transition: 1s;
+}
+
+h1 {
+  width: 100%;
+  text-transform: uppercase;
+  padding: 1rem 0 0 1rem;
+  color: var(--white);
+  filter: drop-shadow(2px 2px 3px black);
+  letter-spacing: 0.1rem;
+  margin-bottom: -1rem;  
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7vh;
+}
+
+section img {
+  height: 80%;
+  box-shadow: 0 0 0.5rem 1px black;
+}
